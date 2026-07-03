@@ -63,7 +63,7 @@ I am a full-stack developer who enjoys turning ideas into working projects. I wo
   <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/output/github-contribution-grid-snake.svg">
 </picture>
 
-# Projects
+## Projects
 
 <h2>
   <a href="https://emberexchange.xyz"><img src="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/emberexchange-logo.png" width="42" alt="EmberExchange logo"></a>
