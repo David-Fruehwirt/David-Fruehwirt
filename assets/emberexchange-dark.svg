@@ -1,51 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-  <title id="title">EmberExchange economy loop</title>
-  <desc id="desc">An animated diagram showing a collectible forged, its value increasing, and the item traded in a marketplace.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-labelledby="title desc">
+  <title id="title">EmberExchange economy</title>
+  <desc id="desc">Three contained animated panels show forging a collectible, tracking its investment value, and listing it on the marketplace.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#111827"/><stop offset="1" stop-color="#090d14"/>
-    </linearGradient>
-    <linearGradient id="ember" x1="0" y1="1" x2="0" y2="0">
-      <stop stop-color="#f97316"/><stop offset="1" stop-color="#fbbf24"/>
-    </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#202020"/><stop offset="1" stop-color="#171717"/></linearGradient>
+    <linearGradient id="heat" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#e85d04"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <clipPath id="forgeClip"><rect x="40" y="96" width="320" height="184" rx="14"/></clipPath>
+    <clipPath id="investClip"><rect x="390" y="96" width="320" height="184" rx="14"/></clipPath>
+    <clipPath id="marketClip"><rect x="740" y="96" width="320" height="184" rx="14"/></clipPath>
     <style>
-      .panel{fill:#151d2a;stroke:#2c394b;stroke-width:2}.muted{fill:#8d9aae}.label{fill:#f3f4f6;font:700 20px system-ui,sans-serif;letter-spacing:3px}.small{fill:#9ca3af;font:500 14px system-ui,sans-serif}.accent{fill:#fb923c}.line{fill:none;stroke:#fb923c;stroke-width:3;stroke-linecap:round}.flow{stroke-dasharray:10 14;animation:flow 1.4s linear infinite}.hammer{transform-origin:190px 102px;animation:hammer 1.8s ease-in-out infinite}.spark{animation:spark 1.8s ease-out infinite}.spark.s2{animation-delay:.18s}.spark.s3{animation-delay:.3s}.fire{animation:pulse 1.2s ease-in-out infinite}.coin{animation:coin 3.6s ease-in-out infinite}.chart{stroke-dasharray:260;stroke-dashoffset:260;animation:draw 3.6s ease-in-out infinite}.card{animation:card 3.6s ease-in-out infinite}.arrow{animation:fade 1.8s ease-in-out infinite}.step{fill:#fb923c;font:700 13px system-ui,sans-serif}.num{fill:#101722;font:800 12px system-ui,sans-serif}@keyframes hammer{0%,38%,100%{transform:rotate(-18deg)}48%,58%{transform:rotate(26deg)}}@keyframes spark{0%,42%,100%{opacity:0;transform:translate(0,0)}52%{opacity:1}75%{opacity:0;transform:translate(15px,-30px)}}@keyframes pulse{50%{opacity:.55;transform:translateY(3px)}}@keyframes flow{to{stroke-dashoffset:-24}}@keyframes coin{0%,12%{transform:translate(0,0);opacity:0}24%,58%{transform:translate(0,-13px);opacity:1}72%,100%{transform:translate(0,0);opacity:.45}}@keyframes draw{0%,18%{stroke-dashoffset:260}58%,100%{stroke-dashoffset:0}}@keyframes card{0%,55%{transform:translateY(8px);opacity:.55}70%,100%{transform:translateY(0);opacity:1}}@keyframes fade{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+      .panel{fill:#2a2a2a;stroke:#444;stroke-width:1.5}.title{fill:#e8e6e3;font:700 18px system-ui,sans-serif;letter-spacing:2px}.subtitle{fill:#a0a0a0;font:400 13px system-ui,sans-serif}.heading{fill:#e85d04;font:700 12px system-ui,sans-serif;letter-spacing:1.4px}.caption{fill:#b8b5b0;font:500 12px system-ui,sans-serif}.muted{stroke:#5a5a5a}.accent{stroke:#e85d04}.hammer{transform-box:fill-box;transform-origin:85% 85%;animation:hammer 2.8s ease-in-out infinite}.spark{animation:spark 2.8s ease-out infinite}.s2{animation-delay:.12s}.s3{animation-delay:.24s}.value{stroke-dasharray:220;stroke-dashoffset:220;animation:value 5s ease-in-out infinite}.coin{transform-box:fill-box;transform-origin:center;animation:coin 3s ease-in-out infinite}.listing{animation:listing 4s ease-in-out infinite}.sold{animation:sold 4s ease-in-out infinite}@keyframes hammer{0%,32%,100%{transform:rotate(-5deg)}43%,53%{transform:rotate(14deg)}}@keyframes spark{0%,40%,100%{opacity:0}48%{opacity:1}65%{opacity:0}}@keyframes value{0%,12%{stroke-dashoffset:220}58%,100%{stroke-dashoffset:0}}@keyframes coin{50%{transform:scale(1.08)}}@keyframes listing{0%,35%{opacity:.35}50%,100%{opacity:1}}@keyframes sold{0%,58%{opacity:0}72%,100%{opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}.value{stroke-dashoffset:0}.listing,.sold{opacity:1}}
     </style>
   </defs>
-  <rect width="1200" height="380" rx="22" fill="url(#bg)"/>
-  <path d="M0 1h1200" stroke="#fb923c" stroke-width="3" opacity=".8"/>
-  <text x="48" y="48" class="label">EMBEREXCHANGE</text>
-  <text x="48" y="76" class="small">A player-driven economy built around collecting, investing and trading.</text>
+  <rect width="1100" height="320" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="5" height="320" rx="2.5" fill="#e85d04"/>
+  <text x="40" y="40" class="title">EMBEREXCHANGE</text>
+  <text x="40" y="67" class="subtitle">Forge collectibles. Follow value. Trade on a player-driven marketplace.</text>
 
-  <rect x="48" y="106" width="320" height="224" rx="16" class="panel"/>
-  <circle cx="78" cy="136" r="13" class="accent"/><text x="74" y="141" class="num">1</text>
-  <text x="102" y="143" class="step">FORGE</text>
-  <path d="M139 273h155l-17 27H156z" fill="#3c4655"/>
-  <path d="M160 263h113v18H160z" fill="#667386"/>
-  <g class="fire" filter="url(#glow)"><path d="M193 263c-16-26 11-31 4-57 24 16 9 28 25 41 13-15 11-26 8-37 30 25 22 43 14 53z" fill="url(#ember)"/></g>
-  <g class="hammer"><rect x="184" y="127" width="18" height="96" rx="7" fill="#9aa5b1" transform="rotate(-35 193 175)"/><rect x="141" y="125" width="75" height="33" rx="7" fill="#d2d8df" transform="rotate(-35 178 141)"/></g>
-  <g fill="#fbbf24"><circle class="spark" cx="223" cy="239" r="4"/><circle class="spark s2" cx="237" cy="247" r="3"/><circle class="spark s3" cx="211" cy="247" r="3"/></g>
-  <text x="208" y="315" text-anchor="middle" class="small">Create scarce collectibles</text>
+  <rect x="40" y="96" width="320" height="184" rx="14" class="panel"/>
+  <g clip-path="url(#forgeClip)">
+    <text x="64" y="126" class="heading">01  FORGE</text>
+    <path d="M123 220h143l-16 24H139z" fill="#555"/><rect x="143" y="208" width="103" height="16" rx="3" fill="#777"/>
+    <path d="M177 208c-7-20 9-27 6-47 19 13 9 25 19 34 11-12 8-21 8-29 22 18 18 31 12 42z" fill="url(#heat)"/>
+    <g class="hammer"><rect x="191" y="138" width="13" height="70" rx="5" fill="#a3a3a3" transform="rotate(-38 198 173)"/><rect x="159" y="135" width="57" height="25" rx="5" fill="#d4d4d4" transform="rotate(-38 188 148)"/></g>
+    <g fill="#f59e0b"><circle class="spark" cx="205" cy="199" r="3"/><circle class="spark s2" cx="218" cy="202" r="2.5"/><circle class="spark s3" cx="194" cy="203" r="2"/></g>
+    <text x="200" y="264" text-anchor="middle" class="caption">Create scarce stove collectibles</text>
+  </g>
 
-  <path d="M382 218h86" class="line flow"/><path d="m455 206 15 12-15 12" class="line arrow"/>
+  <path d="M368 188h14m-5-5 5 5-5 5" fill="none" stroke="#e85d04" stroke-width="2"/>
 
-  <rect x="456" y="106" width="288" height="224" rx="16" class="panel"/>
-  <circle cx="486" cy="136" r="13" class="accent"/><text x="482" y="141" class="num">2</text>
-  <text x="510" y="143" class="step">INVEST</text>
-  <path d="M500 276V180M500 276h194" stroke="#39475a" stroke-width="2"/>
-  <path d="m515 258 38-26 36 8 42-57 49-26" class="line chart" filter="url(#glow)"/>
-  <g class="coin"><circle cx="554" cy="197" r="22" fill="#f59e0b"/><circle cx="554" cy="197" r="15" fill="none" stroke="#fde68a" stroke-width="2"/><text x="554" y="203" text-anchor="middle" class="num">E</text></g>
-  <path d="m672 156-4 25-18-17z" fill="#fb923c"/>
-  <text x="600" y="315" text-anchor="middle" class="small">Track rarity and market value</text>
+  <rect x="390" y="96" width="320" height="184" rx="14" class="panel"/>
+  <g clip-path="url(#investClip)">
+    <text x="414" y="126" class="heading">02  INVEST</text>
+    <path d="M434 232V154M434 232h230" fill="none" class="muted" stroke-width="1.5"/>
+    <path d="m450 215 42-23 39 10 46-35 64-22" fill="none" stroke="#6b442d" stroke-width="4" stroke-linecap="round"/>
+    <path d="m450 215 42-23 39 10 46-35 64-22" fill="none" class="accent value" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g class="coin"><circle cx="492" cy="164" r="21" fill="#e85d04"/><circle cx="492" cy="164" r="14" fill="none" stroke="#ffd1b3" stroke-width="1.5"/><text x="492" y="169" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="12" font-weight="800">E</text></g>
+    <path d="m632 143 12-3-4 12" fill="#e85d04"/>
+    <text x="550" y="264" text-anchor="middle" class="caption">Track rarity, ownership and price history</text>
+  </g>
 
-  <path d="M758 218h82" class="line flow"/><path d="m827 206 15 12-15 12" class="line arrow"/>
+  <path d="M718 188h14m-5-5 5 5-5 5" fill="none" stroke="#e85d04" stroke-width="2"/>
 
-  <rect x="828" y="106" width="324" height="224" rx="16" class="panel"/>
-  <circle cx="858" cy="136" r="13" class="accent"/><text x="854" y="141" class="num">3</text>
-  <text x="882" y="143" class="step">MARKETPLACE</text>
-  <g class="card"><rect x="875" y="171" width="105" height="108" rx="10" fill="#202b3a" stroke="#435168"/><path d="M903 249h50l-5-47h-40z" fill="#fb923c"/><path d="M916 201v-13h24v13" fill="none" stroke="#ffd29b" stroke-width="5"/><text x="927" y="296" text-anchor="middle" class="small">LIST</text></g>
-  <g class="card" style="animation-delay:.25s"><rect x="1000" y="171" width="105" height="108" rx="10" fill="#202b3a" stroke="#435168"/><circle cx="1052" cy="217" r="27" fill="#f59e0b"/><text x="1052" y="224" text-anchor="middle" class="num">E</text><text x="1052" y="296" text-anchor="middle" class="small">TRADE</text></g>
-  <path d="M968 213h42m-9-8 10 8-10 8M1011 239h-42m9-8-10 8 10 8" class="line flow"/>
-  <text x="990" y="315" text-anchor="middle" class="small">Buy, sell and grow a collection</text>
+  <rect x="740" y="96" width="320" height="184" rx="14" class="panel"/>
+  <g clip-path="url(#marketClip)">
+    <text x="764" y="126" class="heading">03  MARKETPLACE</text>
+    <g class="listing"><rect x="780" y="148" width="100" height="83" rx="9" fill="#333" stroke="#555"/><path d="M810 210h40l-4-35h-32z" fill="#e85d04"/><path d="M820 175v-10h20v10" fill="none" stroke="#f5b58d" stroke-width="4"/></g>
+    <path d="M896 181h43m-8-7 9 7-9 7M940 204h-43m8-7-9 7 9 7" fill="none" stroke="#e85d04" stroke-width="2"/>
+    <rect x="956" y="148" width="68" height="83" rx="9" fill="#333" stroke="#555"/><circle cx="990" cy="185" r="20" fill="#f59e0b"/><text x="990" y="190" text-anchor="middle" fill="#292929" font-family="system-ui" font-size="11" font-weight="800">E</text>
+    <g class="sold"><rect x="956" y="216" width="68" height="21" rx="10.5" fill="#173c29"/><text x="990" y="230" text-anchor="middle" fill="#4ade80" font-family="system-ui" font-size="10" font-weight="700">TRADED</text></g>
+    <text x="900" y="264" text-anchor="middle" class="caption">Buy, sell and grow the collection</text>
+  </g>
 </svg>
