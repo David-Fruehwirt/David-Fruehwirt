@@ -43,7 +43,7 @@ My work focused on the Angular frontend and the middle layer that connects the i
 > ### [RedQuorum](https://github.com/LPuehringerStudent/RedQuorum)
 > An AI security scanner where several agents find security problems and vote on which ones should be reported.
 >
-> 🏆 **First Place — [Youth Entrepreneurship Week](https://www.entrepreneurshipwoche.at/), Linz**
+> **First Place — [Youth Entrepreneurship Week](https://www.entrepreneurshipwoche.at/), Linz**
 
 ## Programming Languages
 
