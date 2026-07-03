@@ -2,7 +2,7 @@
 
 # David Frühwirt
 
-### Full-Stack Developer · HTL Leonding
+### Full-Stack Developer · [HTL Leonding](https://www.htl-leonding.at/)
 
 I build complete products across the frontend, middle layer, and backend, with a focus on useful interfaces and dependable systems.
 
@@ -12,7 +12,7 @@ I build complete products across the frontend, middle layer, and backend, with a
 
 I am a full-stack developer working with **C#, Java, TypeScript, HTML, CSS, Angular, and C**. I enjoy taking an idea from its first interface through application logic to a working, testable product.
 
-> **First Place — Youth Entrepreneurship Week, Linz**  
+> **[First Place — Youth Entrepreneurship Week, Linz](https://www.entrepreneurshipwoche.at/)**  
 > RedQuorum won first place for its multi-agent approach to practical cybersecurity.
 
 ## Featured Projects
@@ -52,7 +52,7 @@ My work focused on the Angular frontend and the middle layer connecting the inte
 
 A multi-agent AI security scanner where specialized agents inspect potential vulnerabilities, debate their impact, and vote. Only findings that reach quorum are promoted to the final report.
 
-Built by a creator group and awarded **First Place at Youth Entrepreneurship Week in Linz**.
+Built by a creator group and awarded **First Place at [Youth Entrepreneurship Week](https://www.entrepreneurshipwoche.at/) in Linz**.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
