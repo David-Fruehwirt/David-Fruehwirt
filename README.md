@@ -15,15 +15,15 @@ I am a full-stack developer working with **C#, Java, TypeScript, HTML, CSS, Angu
 > **[First Place — Youth Entrepreneurship Week, Linz](https://www.entrepreneurshipwoche.at/)**  
 > RedQuorum won first place for its multi-agent approach to practical cybersecurity.
 
-## Featured Projects
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/emberexchange-logo.png" width="78" alt="EmberExchange forge logo">
 </p>
 
-### [EmberExchange](https://github.com/LPuehringerStudent/EmberExchange)
+## [EmberExchange](https://github.com/LPuehringerStudent/EmberExchange)
 
 **Frontend Developer · Middle-Layer Contributor**
+
+<p align="center"><img src="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/emberexchange-chest.gif" width="88" alt="Animated EmberExchange lootbox"></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/emberexchange-dark.svg">
@@ -40,7 +40,7 @@ My work focused on the Angular frontend and the middle layer connecting the inte
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-### [RedQuorum](https://github.com/LPuehringerStudent/RedQuorum)
+## [RedQuorum](https://github.com/LPuehringerStudent/RedQuorum)
 
 **Co-Creator · General Contributor · First-Place Project**
 
