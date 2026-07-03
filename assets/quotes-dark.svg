@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="170" viewBox="0 0 1100 170" role="img" aria-labelledby="title desc">
   <title id="title">Quotes from David Frühwirt</title>
-  <desc id="desc">Rotating quotes: Scared of C pointers. Typescript is ALWAYS better than JavaScript. See? C? ....because you can't C#! You get it? No? Aww :(</desc>
+  <desc id="desc">Seven rotating quotes about programming, C pointers, TypeScript, Prolog, and Fable 5.</desc>
   <style>
-    .quote{fill:#f4f4f5;font:600 24px system-ui,sans-serif;text-anchor:middle;opacity:0}.mark{fill:#e85d04;font:700 42px Georgia,serif}.label{fill:#888;font:700 10px system-ui,sans-serif;letter-spacing:2px}.q1{animation:q1 16s infinite}.q2{animation:q2 16s infinite}.q3{animation:q3 16s infinite}.q4{animation:q4 16s infinite}@keyframes q1{0%,20%{opacity:1}24%,96%{opacity:0}100%{opacity:1}}@keyframes q2{0%,22%,48%,100%{opacity:0}26%,44%{opacity:1}}@keyframes q3{0%,46%,72%,100%{opacity:0}50%,68%{opacity:1}}@keyframes q4{0%,70%,98%{opacity:0}74%,94%{opacity:1}}@media(prefers-reduced-motion:reduce){.quote{animation:none!important;opacity:0}.q1{opacity:1}}
+    .quote{fill:#f4f4f5;font:600 24px system-ui,sans-serif;text-anchor:middle;opacity:0}.mark{fill:#e85d04;font:700 42px Georgia,serif}.label{fill:#888;font:700 10px system-ui,sans-serif;letter-spacing:2px}
+    .q1{animation:q1 28s infinite}.q2{animation:q2 28s infinite}.q3{animation:q3 28s infinite}.q4{animation:q4 28s infinite}.q5{animation:q5 28s infinite}.q6{animation:q6 28s infinite}.q7{animation:q7 28s infinite}
+    @keyframes q1{0%,12%{opacity:1}14%,98%{opacity:0}100%{opacity:1}}@keyframes q2{0%,13%,27%,100%{opacity:0}15%,25%{opacity:1}}@keyframes q3{0%,27%,41%,100%{opacity:0}29%,39%{opacity:1}}@keyframes q4{0%,41%,55%,100%{opacity:0}43%,53%{opacity:1}}@keyframes q5{0%,55%,69%,100%{opacity:0}57%,67%{opacity:1}}@keyframes q6{0%,69%,83%,100%{opacity:0}71%,81%{opacity:1}}@keyframes q7{0%,83%,98%,100%{opacity:0}85%,96%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.quote{animation:none!important;opacity:0}.q1{opacity:1}}
   </style>
   <rect width="1100" height="170" rx="16" fill="#1c1c1f" stroke="#38383f"/>
   <text x="40" y="35" class="label">FROM THE DEVELOPER</text><text x="55" y="112" class="mark">“</text>
@@ -10,4 +13,7 @@
   <text x="550" y="101" class="quote q2">"Typescript is ALWAYS better than JavaScript"</text>
   <text x="550" y="101" class="quote q3">"See? C?"</text>
   <text x="550" y="101" class="quote q4">"....because you can't C#! You get it? No? Aww :("</text>
+  <text x="550" y="101" class="quote q5">"If it works it works, don't question it"</text>
+  <text x="550" y="101" class="quote q6">"I would rather unalive myself than use prolog"</text>
+  <text x="550" y="101" class="quote q7">"Fable 5 is BACK (I'm too broke to use it)"</text>
 </svg>
