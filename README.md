@@ -14,31 +14,41 @@ I build practical full-stack products with a focus on clear interfaces, reliable
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### [EmberExchange](https://github.com/LPuehringerStudent/EmberExchange)
 
 **Frontend Developer and Middle-Layer Contributor**
 
-A full-stack virtual marketplace and collection game for trading unique stoves, opening lootboxes, and playing real-time Poker and Blackjack.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/emberexchange-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/emberexchange-light.svg">
+  <img alt="Animated EmberExchange economy loop showing forging, investment and marketplace trading" src="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/emberexchange-light.svg">
+</picture>
 
-My work focused on the frontend and included contributions to the middle layer connecting the user experience with the application's services and shared models.
+EmberExchange is an economy and collection game built around a player-driven marketplace. Players forge scarce stove collectibles, open lootboxes, follow price and ownership history, invest in items, and trade to grow their collections. Real-time Poker and Blackjack create additional ways to participate in the economy.
+
+My work focused on the Angular frontend and included contributions to the middle layer connecting the interface with application services and shared TypeScript models.
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
 
-</td>
-<td width="50%" valign="top">
+[View EmberExchange](https://github.com/LPuehringerStudent/EmberExchange)
+
+---
 
 ### [RedQuorum](https://github.com/LPuehringerStudent/RedQuorum)
 
 **Co-Creator and General Contributor**
 
-A multi-agent AI security scanner built around a parliament of specialized attackers. Agents debate potential vulnerabilities and only consensus-approved findings reach the final report.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/redquorum-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/redquorum-light.svg">
+  <img alt="Animated RedQuorum pipeline showing security scanning, agent debate and consensus" src="https://raw.githubusercontent.com/David-Fruehwirt/David-Fruehwirt/main/assets/redquorum-light.svg">
+</picture>
+
+RedQuorum is a multi-agent AI security scanner built around a parliament of specialized attackers. Agents inspect potential vulnerabilities, debate their impact, and vote. Only findings that reach quorum are promoted to the final report.
 
 I worked as part of the creator group across the project, contributing to its overall direction and implementation.
 
@@ -47,9 +57,9 @@ I worked as part of the creator group across the project, contributing to its ov
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-</td>
-</tr>
-</table>
+[View RedQuorum](https://github.com/LPuehringerStudent/RedQuorum)
+
+---
 
 ## Tools and Technologies
 
