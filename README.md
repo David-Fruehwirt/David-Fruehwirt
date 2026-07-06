@@ -1,6 +1,6 @@
 <div align="center">
 
-# David Frühwirt
+# Hi, I'm David!
 
 ### Full-Stack Developer · [HTL Leonding](https://www.htl-leonding.at/)
 
